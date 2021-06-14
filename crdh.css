@@ -1,0 +1,65 @@
+    
+*{box-sizing:content-box!important;margin:0;padding:0;}
+html,body { height: 100% }
+body{background-attachment:fixed;background: #355c7d; /* fallback for old browsers */background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+:root body{filter:none;}
+body::-webkit-scrollbar { /*滚动条整体样式*/width: 17px; /*高宽分别对应横竖滚动条的尺寸*/height: 1px;}
+body::-webkit-scrollbar-thumb { /*滚动条里面小方块*/border-radius: 20px;-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);background: #535353;}
+body::-webkit-scrollbar-track { /*滚动条里面轨道*/-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);border-radius: 0px;background: #041618;}
+.clear{clear:both;}
+.center{width: 1200px;margin: auto;}
+.top{margin-top: 18px;margin-bottom: 20px;vertical-align: middle;}
+.title-main{text-shadow:rgb(255, 251, 0) 0 0 10px;color:white;font-size: 40px;display: inline-block;font-style: italic;}
+.title-info{margin-left: 10px;color: #efe;display: inline-block;}
+.title-desc{margin-left: 10px;color: orange;display: inline-block;}
+.gg{color:#33CCFF; border:#888 1px dotted; border-radius: 15px;padding:10px;margin-top:10px; cursor:pointer;}
+.zdsl{text-decoration: none;color: yellow;padding: 5px 10px;border-radius: 10px; font-weight: bold;float: right;font-size: 14px!important;vertical-align: text-bottom;background-color: #545c7c;}
+.zdsl:hover{background-color: #385c7d;color: #fff;}
+.zdsll{text-decoration: none;color: yellow;padding: 5px 10px;border-radius: 10px; font-weight: bold;float: bottom;font-size: 14px!important;vertical-align: text-bottom;background-color: #545c7c;}
+.zdsll:hover{background-color: #385c7d;color: #fff;}
+.cat-wrap{margin-top: 20px;}
+.cat-top{padding: 10px 0 10px 0;border-radius: 8px 8px 0 0;}
+.withoutTitle{border-radius: 8px 8px 8px 8px!important;}
+.cat-name{margin-left: 5px;float: left;font-size: large;font-weight: bold;text-shadow:#feacae 0 0 5px;}
+.cat-info{margin-right: 5px;float: right;color: #000000;}
+.cat-main{width: 100%;background-color: #999;padding-bottom: 5px;border-radius: 0 0 8px 8px;}
+.chain{-webkit-box-sizing: border-box!important;-moz-box-sizing: border-box!important;box-sizing: border-box!important;width: 10%;text-align:center;display: inline-block;padding: 10px 2px;text-decoration: none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;background-color: #fefefe;border-radius: 5px;margin: 10px 1px 0px 6px;font-size: medium;color: #666;opactity: 0.5;FILTER: Alpha(Opacity=50);}
+.chain:hover{background-color: #111!important;font-size: normal!important;}
+a.withImg img{width: 40px!important;height: 40px!important;display: block;border-radius: 10px;border: 2px solid rgba(200,200,200,0.5);margin: 2px auto 5px auto;}
+a.withDesc{width: 31.5%!important;}
+a.withDesc .dhtitle  {-webkit-box-sizing: border-box!important;-moz-box-sizing: border-box!important; box-sizing: border-box!important;width: 30%!important;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-decoration: none;display: inline-block;text-align: center;vertical-align: middle;border-right: 1px solid #ccc;padding-right:3px;}
+a.withDesc .dhdesc  {-webkit-box-sizing: border-box!important;-moz-box-sizing: border-box!important;box-sizing: border-box!important;width: 68%!important;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 12px;text-decoration: none;display: inline-block;text-align: center;vertical-align: middle;color: #aaa!important;padding-left:3px;}
+.foot{width: 100%;text-align: center;padding: 15px 0;color: #eee;font-size: small;margin-top: 40px;}
+.boldA{font-weight: bold;}
+a.margintop20px{ display: block;margin-top: 20px;}
+a.margintop20px img{width: 100%;}
+.photo-one{display: flex;flex-wrap: wrap;background-color: rgb(255, 255, 255);border-radius: 0px 0px 8px 8px;padding-bottom: 10px;width: 100%;height: 100%;}
+.photo-two{display: inline-block;display: block;height: 85px;margin: 7px;	margin-left: 15px;text-align: center;}
+.photo-two a{text-decoration:none;}
+.photo-two img{border-radius: 15%;height: 70px;width: 70px;}
+.photo-name{float: center;font-size: large;font-weight: bold;color: rgb(0, 0, 0);font-size: small;}
+@media(max-width:1200px){
+.center{width: 98%;margin: auto;padding: 0 1%;}
+.title-main{display: block;margin-bottom: 7px;}
+.title-info{margin-left: 0px;display:inline-block;}
+.title-desc{margin-left: 0px;display:inline-block;}
+.zdsl{display:inline-block;text-decoration: none;color: yellow;padding: 4px 8px;margin-bottom: -2px;border-radius: 10px; font-weight: bold;float: none;}
+.chain{width: 30%!important; margin: 5px 0% 0 2%!important;margin-right: 0!important;}
+a.withDesc{width: 95%!important;}
+.foot{font-size: x-small;}
+span.chain-icon{color: red!important;color:red!important;}}
+@media(max-width:680px){
+.chain{width: 27%;margin: 5px 2% 0 2%;}
+.photo-two{display: inline-block;display: block;height: 85px;margin: 5px;	text-align: center;}}
+.wvshow, .wvshow img{max-width: 100%;}
+.guanggao{margin: 0; padding: 0;width: 100%;z-index: 9999;border: none;}
+.tupian{width: 100%;max-width: 100%;height: 100%;}
+.dh{font-weight: bold;color: rgb(236, 40, 220);background-color: rgba(0, 72, 85, 0.842);}
+.kdy{font-weight: bold;color: rgb(199, 50, 67);background-color: rgb(199, 50, 67);}
+.zztj{font-weight: bold;color: rgb(191, 50, 199);background-color: rgb(191, 50, 199);}
+.zxsp{font-weight: bold;color: rgb(50, 57, 199);background-color: rgb(50, 57, 199);}
+.fldh{font-weight: bold;color: rgb(50, 199, 174);background-color: rgb(50, 199, 174);}
+.chain2{-webkit-box-sizing: border-box!important;-moz-box-sizing: border-box!important;box-sizing: border-box!important;width: 98%;text-align: left;display: inline-block;padding: 10px 10px;text-decoration: none;text-overflow: ellipsis;white-space: nowrap;background-color: #fefefe;border-radius: 5px;margin: 10px 1px 0px 6px;font-size: small;color: rgb(0, 0, 0);opactity: 0.5;FILTER: Alpha(Opacity=50);}
+.dh{font-weight: bold;color: rgb(247, 247, 247);background-color: rgba(0, 72, 85, 0.842);}
+.ziti{font-family: Times,Arial,serif;font-weight: bold;}
+.gonggao {background-color: rgba(0, 0, 0, 0.37);border-top: 0px solid #111;height: 100%;width: 100%;float: certer;font: 14px/36px Tahoma,'Microsoft Yahei',Simsun;font-weight: 400;color: #FFF;text-align: center;}
